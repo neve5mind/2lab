@@ -1,0 +1,15 @@
+.navbar-nav .nav-link.active{
+    color: hsl(313, 100%, 50%);
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: hsla(313, 100%, 50%, 0.507);
+}
+
+img{
+    max-height: 59px;
+}

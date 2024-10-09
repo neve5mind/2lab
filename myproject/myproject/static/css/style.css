@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Michroma);
+
+
+body{
+    font-family: Michroma, serif;
+    background: black;
+    color: white;
+}
+
+h1{
+    margin-top: 1em;
+    color: white;
+    text-align: center;
+}
+
+/* 1 страница */
+
+.post-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn-ras{
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-card {
+    max-width: 300px;
+    margin: 15px;
+}
+
+.post-card .card img{
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    object-fit: cover;
+}
+
+.col-md-13{
+    margin-top: 2em;
+}
+
+/* кнопки */
+
+#btn1{
+    margin-bottom: 1em;
+    border: 1.5px solid white;
+    color: white;
+}
+
+.card{
+    color: white;
+    background: linear-gradient(45deg, #7300ff 0%, #bb00ff 53%, #ff00d0 98%);
+}
+.btn-primary{
+    background: none;
+    border: 1.5px solid white;
+    color: white;
+}
+
+.btn:hover {
+    color: #bb00ff;
+    background-color: white;
+    /* border-color: #bb00ff; */
+    border: none;
+}
+
+#btn1:hover{
+    color: black;
+    background-color: white;
+    border-color: white;
+}

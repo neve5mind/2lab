@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+}
+
+.f1{
+    text-align: center;
+}
+
+video{
+    height: 720px;
+}
+
+@media(max-width:1500px){
+    video{
+        height: 720px;
+        margin-left: 100px;
+    }
+}
+
+@media(max-width:1100px){
+    video{
+        height: 480px;
+    }
+}
+
+@media(max-width:500px){
+    video{
+        height: 144px;
+    }
+}

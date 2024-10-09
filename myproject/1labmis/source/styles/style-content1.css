@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Michroma);
+
+*, ::after, ::before {
+    box-sizing: content-box ;
+}
+
+body{
+    font-size: 18px;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    font-family: Michroma, serif;
+}
+
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+
+.from{
+    max-width: 650px;
+    margin: 50px auto;
+    margin-left: 617px;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    padding-top: 2em;
+    height: 400px;
+}
+
+.form-text{
+    color: hsla(313, 100%, 50%, 0.452);
+}
+
+.form-label {
+    text-align: center;
+}
+
+.mb-3{
+    width: 100%;
+}
+
+.form-control {
+    border: 1.5px solid #f800ff;
+}
+
+.form-group{
+    display: flex;
+    padding-bottom: 1em;
+    margin-top: 5px;
+}
+
+.form-check2{
+    padding-left: 10em;
+}
+
+.ots{
+    margin-top: 10px;
+}
+
+.form-check-input:checked {
+    background-color: hsl(313, 100%, 50%);
+    border-color: hsl(313, 100%, 31%);
+}
+
+.btn{
+    --bs-btn-padding-x: 3em;
+    --bs-btn-padding-y: 0.475rem;
+}
+
+.btn:hover {
+    border-color: hsl(313, 100%, 50%);
+}
+
+.btn-outline-info {
+--bs-btn-color: hsl(313, 100%, 50%);
+--bs-btn-border-color: hsl(313, 100%, 50%);
+--bs-btn-hover-color: #000;
+--bs-btn-hover-bg: hsl(313, 100%, 50%);
+--bs-btn-focus-shadow-rgb: 13, 202, 240;
+--bs-btn-active-color: #000;
+--bs-btn-active-bg: hsl(313, 100%, 50%);
+--bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+--bs-btn-disabled-color: hsl(313, 100%, 50%);
+--bs-btn-disabled-bg: transparent;
+--bs-btn-disabled-border-color: hsl(313, 100%, 50%);
+--bs-gradient: none;
+}
+
+
+@media(max-width: 1600px){
+    .from{
+        margin: 50px auto;
+        padding: 20px;
+    }
+
+}
